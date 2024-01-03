@@ -135,3 +135,13 @@ console.log(andResult);
 
 let orOr = (5 > 10 || 10>5 );
 console.log(orOr);
+
+//Not 
+!(5 > 10)  //false
+// if i put ! then it will be true 
+
+// Next class Topic
+//if...else 
+//loop 
+//switch 
+
