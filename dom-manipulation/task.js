@@ -11,12 +11,17 @@ headLine.style.color = "red";
 console.log(headLine);
 //##Interactive List Modification:
 //3. Add a button to the HTML document that says "Add Item". 
-document.getElementById('addItemButton').addEventListener('click', function() {
-    // Add your code here to perform actions when the button is clicked
-    alert('Item added!');
-    // You can add more functionality or DOM manipulation as needed
-  });
+const mybtn = document.querySelector("button");
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
 //4. - When the button is clicked, add a new **`<li>`** 
 //to the existing list with the text "New Item" and a random number. 
 // read this : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+mybtn.addEventListener("click",function(){
+    let someRandomNumber = getRandomInt(220);
+    list.innerHTML +=`<li>Item</li>`
+    //list.innerHTML = list.innerHTML+ `<li>New Item <li>`
+})
+
