@@ -72,6 +72,7 @@ switch(color) {
 
 let grade = "A";
 
+
 switch(grade) {
 case "A": 
     console.log("Outstanding!");
@@ -91,3 +92,10 @@ case "F":
 default:
     console.log("Invalid Grade");
 }
+
+
+// 3 Scope 
+
+// var is global scop 
+// let is function scop :: After declear i can change veriable more then one time! 
+// const :: I can declear one time I can't re-declear again!
