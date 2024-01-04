@@ -31,7 +31,7 @@ console.log(listAll);
 
 // Select the h1 and changed the color to be red 
 const heading1 = document.querySelector("h1");
-console.dir(heading1); //comment on console 
+console.dir(heading1); //dir is details style proparty in console 
 
 heading1.style.color = "#ffffff";
 heading1.style.border = "5px solid green";
