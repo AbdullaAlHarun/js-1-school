@@ -29,6 +29,11 @@ for (let i = 0; i < totalNumberOfFruits; i++) {
     console.log(fruits[i])
 }
 
+//hoe to get the last items in the arry 
+console.log(fruits.length);
+console.log(fruits.length -1);
+console.log(fruits[fruits.length -1]);
+
 
 
 
