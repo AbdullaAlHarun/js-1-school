@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+h2 {
+    color: orangered;
+    font-weight: 800;
+    font-size: 2em;
+}
