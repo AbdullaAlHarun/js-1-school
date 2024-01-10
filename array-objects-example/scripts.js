@@ -1,9 +1,8 @@
 
 // Changing the year on footer
-//const year = document.querySelector('#current-year')
-
-//year.innerHTML = new Data().getFullYear()
-//console.log(year);
+const year = document.querySelector('#current-year')
+console.log(year);
+year.innerHTML = new Date().getFullYear();
 
 
 // Arrays 
@@ -117,3 +116,56 @@ function adTwoNumbers (num1, num2) {
 
 const sum = adTwoNumbers(10, 20);
 console.log(sum);
+
+// arrya 
+
+let myBigBox = ["hesh", 2222, false, {name: "layla"}];
+
+console.log(myBigBox.length);
+console.log(myBigBox);
+console.log(myBigBox[0]);
+
+
+//how to get the last item of the array 
+
+const lastItemIndex = myBigBox.length - 1;
+console.log("Last Item array: ", lastItemIndex);
+
+
+//looping over an array 
+
+for(let i = 0; i <myBigBox.length; i++){
+    console.log(myBigBox[i]);
+}
+
+
+// concatenation 
+
+let firstName = "Anniken";
+let secondName = "Hesh";
+let thirdName = "Patric";
+
+//"" or' ' 
+
+const myParagraph = "Hello " + firstName + " and hello " + secondName + " hello my friend " + thirdName;
+console.log(myParagraph);
+
+
+// 10 function 
+
+function logWard() {
+    console.log("Hello Christian Sir")
+}
+
+logWard(); // one time 
+logWard(); // second time 
+
+
+/// if 
+
+if (today === 'heard') {
+    keepCoding();
+    future ='bright';
+}
+
+console.log(keepCoding);
