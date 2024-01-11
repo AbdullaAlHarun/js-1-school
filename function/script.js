@@ -11,6 +11,25 @@ button.onclick = changeHeading;
 
 function changeColor () {
     body.style.backgroundColor = 'blue';
+    heading.style.color = 'white';
 }
 
 buttonColours.onclick = changeColor;
+
+
+//function inside a objects 
+const catBtn  = document.querySelector(".cat");
+const pet = {
+    type: "cat",
+    name: "Titi",
+    age: 10,
+    isFriendly: false, 
+    meawMeaw: function (){
+        console.log("the sound of the cat ");
+    }
+};
+console.log("type: ", pet.type);
+console.log("Is the cat is friendly: ", pet.isFriendly);
+
+pet.meawMeaw();
+catBtn.onclick = pet.meawMeaw;
