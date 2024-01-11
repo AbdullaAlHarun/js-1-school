@@ -110,10 +110,10 @@ function createShoppingList(shoppingList) {
 
     for (let i = 0; i < shoppingList.length; i++) {
         myShoppingListItems += `
-                <div>
-                    <h2>${shoppingList[i].name}</h2>
-                    <h3>${shoppingList[i].price}</h3>
-                </div>
+            <div>
+                <h2>${shoppingList[i].name}</h2>
+                <h3>${shoppingList[i].price}</h3>
+            </div>
         `
     }
     return myShoppingListItems
