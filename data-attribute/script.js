@@ -14,3 +14,10 @@ postDetails.addEventListener("Click",function(){
     ${article.dataset.catagory}, Tusen takk <3 !!
     `)
 });
+
+const postImg = document.querySelector("img");
+console.log(postImg);
+
+postImg.addEventListener("Click", function () {
+    window.open(postImg.dataset.fullsize, "_self");
+});
