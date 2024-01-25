@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>:: onkeyup Example ::</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    
+    <main>
+        <h1>Sign up form : </h1>
+        <form>
+            <label for="first-name">
+                First Name:
+            </label>
+            <input type="text" id="first-name">
+            <span id="first-name-error-massege"></span>
+
+            <label for="password">Password</label>
+            <input type="password">
+            <span id="password-error-massege">
+
+            </span>
+            <div>
+                <button type="submit" id="sign-up-BTN" disabled>Sign Up</button>
+            </div>
+        </form>
+    </main>
     <script src="scripts.js"></script>
 </body>
 </html>
